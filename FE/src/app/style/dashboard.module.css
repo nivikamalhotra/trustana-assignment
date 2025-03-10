@@ -1,0 +1,162 @@
+/* Filters Box Container */
+.filterContainer {
+    width: 100%;
+    margin: 20px 0;
+    position: relative;
+  }
+  
+  /* Search & Show Filters in One Row */
+  .topBar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+  }
+  
+  /* Search Input */
+  .searchInput {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 250px;
+    font-size: 14px;
+    margin-left: 78%;
+  }
+  
+  /* Show/Hide Filter Button */
+  .toggleFilterBtn {
+    background-color: #2563eb;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+  }
+  
+  .toggleFilterBtn:hover {
+    background-color: #1e40af;
+  }
+  
+  /* Full Filters Box */
+  .filtersBox {
+    background: white;
+    border: 2px solid #3b82f6;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Filters Title */
+  .filterTitle {
+    font-size: 16px;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  /* Select Filter Button */
+  .selectFilterContainer {
+    position: relative;
+    margin-bottom: 10px;
+  }
+  
+  .selectFilterBtn {
+    background-color: #3b82f6;
+    color: white;
+    padding: 8px 12px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 14px;
+  }
+  
+  .selectFilterBtn:hover {
+    background-color: #2563eb;
+  }
+  
+  /* Dropdown Styling */
+  .filterDropdown {
+    display: none;
+    position: absolute;
+    background: white;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 200px;
+    z-index: 10;
+  }
+  
+  .selectFilterContainer:hover .filterDropdown {
+    display: block;
+  }
+  
+  .filterDropdown p {
+    padding: 10px;
+    cursor: pointer;
+    font-size: 14px;
+  }
+  
+  .filterDropdown p:hover {
+    background: #f0f0f0;
+  }
+  
+  /* Grid Layout for Filters */
+  .filtersGrid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+    gap: 15px;
+    margin-bottom: 15px;
+  }
+  
+  /* Select Dropdown & Inputs */
+  .filtersGrid select,
+  .filtersGrid input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  /* Created On - Single Box */
+  .createdOnContainer {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .createdOnContainer label {
+    font-size: 14px;
+    font-weight: bold;
+    margin-bottom: 5px;
+  }
+  
+  /* Filter Buttons */
+  .filterButtons {
+    display: flex;
+    gap: 10px;
+  }
+  
+  /* Apply Button */
+  .applyBtn {
+    background-color: #3b82f6;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .applyBtn:hover {
+    background-color: #2563eb;
+  }
+  
+  /* Reset Button */
+  .resetBtn {
+    background-color: #e5e7eb;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .resetBtn:hover {
+    background-color: #d1d5db;
+  }
